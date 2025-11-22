@@ -220,7 +220,7 @@ public class Main {
     }
 
     private static void addOrEditProfile(int userId) {
-        System.out.print("Enter Status (Active/Inactive): ");
+        System.out.print("Enter Status ");
         String status = sc.nextLine();
         System.out.print("Enter Contact Number: ");
         String contact = sc.nextLine();
